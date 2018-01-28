@@ -2,6 +2,7 @@ package singlylinkedlist;
 
 public class singlyLinkedList {
     private Node first;
+    private Node last;
 
     public singlyLinkedList() {
 
@@ -43,4 +44,5 @@ public class singlyLinkedList {
         newNode.data=data;
         currentNode.next=newNode;
     }
+
 }
