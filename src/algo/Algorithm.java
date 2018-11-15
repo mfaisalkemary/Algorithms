@@ -29,10 +29,10 @@ public class Algorithm {
 
     }
 
-    public static void sortArray(int[]array){
+    public static void sortArrayByJava(int[]array){
         try {
             Arrays.sort(array);
-            System.out.println("sorted array : "+Arrays.toString(array));
+            System.out.println("Sorted By Java"+Arrays.toString(array));
         }
         catch (Exception e){
             e.printStackTrace();
